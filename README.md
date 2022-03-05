@@ -14,11 +14,12 @@ Aufrufen:
 * 80/tcp
 
 ## Versions
-* latest, 7, 7.4, 7.4.11 (PHP/7.4.11, Zend Engine/3.4.0 and Apache/2.4.38) [Dokerfile](https://github.com/frank-rahn/docker-rahn-php-apache-with-extensions/blob/main/7.4.11/Dockerfile)
-* 7.3, 7.3.11 (PHP/7.3.11, Zend Engine/3.3.11 and Apache/2.4.38) [Dokerfile](https://github.com/frank-rahn/docker-rahn-php-apache-with-extensions/blob/main/7.3.11/Dockerfile)
-* 7.2, 7.2.13 (PHP/7.2.13, Zend Engine/3.2.0 and Apache/2.4.25) [Dokerfile](https://github.com/frank-rahn/docker-rahn-php-apache-with-extensions/blob/main/7.2.13/Dockerfile)
-* 7.1, 7.1.25 (PHP/7.1.25, Zend Engine/3.1.0 and Apache/2.4.25) [Dokerfile](https://github.com/frank-rahn/docker-rahn-php-apache-with-extensions/blob/main/7.1.25/Dockerfile)
-* 7.1.22 (PHP/7.1.22, Zend Engine/3.1.0 and Apache/2.4.25) [Dokerfile](https://github.com/frank-rahn/docker-rahn-php-apache-with-extensions/blob/main/7.1.22/Dockerfile)
+* latest, 8, 8.0, 8.0.13 (PHP/8.0.13, Zend Engine/4.0.13 and Apache/2.4.51) [Dockerfile](https://github.com/frank-rahn/docker-rahn-php-apache-with-extensions/blob/main/8.0.13/Dockerfile)
+* 7, 7.4, 7.4.11 (PHP/7.4.11, Zend Engine/3.4.0 and Apache/2.4.38) [Dockerfile](https://github.com/frank-rahn/docker-rahn-php-apache-with-extensions/blob/main/7.4.11/Dockerfile)
+* 7.3, 7.3.11 (PHP/7.3.11, Zend Engine/3.3.11 and Apache/2.4.38) [Dockerfile](https://github.com/frank-rahn/docker-rahn-php-apache-with-extensions/blob/main/7.3.11/Dockerfile)
+* 7.2, 7.2.13 (PHP/7.2.13, Zend Engine/3.2.0 and Apache/2.4.25) [Dockerfile](https://github.com/frank-rahn/docker-rahn-php-apache-with-extensions/blob/main/7.2.13/Dockerfile)
+* 7.1, 7.1.25 (PHP/7.1.25, Zend Engine/3.1.0 and Apache/2.4.25) [Dockerfile](https://github.com/frank-rahn/docker-rahn-php-apache-with-extensions/blob/main/7.1.25/Dockerfile)
+* 7.1.22 (PHP/7.1.22, Zend Engine/3.1.0 and Apache/2.4.25) [Dockerfile](https://github.com/frank-rahn/docker-rahn-php-apache-with-extensions/blob/main/7.1.22/Dockerfile)
 
 ## Homepage des Autors
 [Frank W. Rahn](https://www.frank-rahn.de/)
@@ -39,6 +40,13 @@ Verbinden mit der `bash`:
     docker exec -it php-apache-app bash
 
 ## Informationsquellen bei HostEurope
+
+### PHP 8.0
+Webhosting: [http://php8.hosteurope-infos.de/phpinfo.php](http://php8.hosteurope-infos.de/phpinfo.php)
+
+Webserver: [http://webserver-php8.hosteurope-infos.de/phpinfo.php](http://webserver-php8.hosteurope-infos.de/phpinfo.php)
+
+Migration: [https://www.php.net/manual/de/migration80.incompatible.php](https://www.php.net/manual/de/migration80.incompatible.php)
 
 ### PHP 7.4
 Webhosting: [http://php74.hosteurope-infos.de/phpinfo.php](http://php74.hosteurope-infos.de/phpinfo.php)

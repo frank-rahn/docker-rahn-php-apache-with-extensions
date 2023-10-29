@@ -14,7 +14,8 @@ Aufrufen:
 * 80/tcp
 
 ## Versions
-* latest, 8, 8.1, 8.1.10 (PHP/8.1.10, Zend Engine/4.1.10 and Apache/2.4.54) [Dockerfile](https://github.com/frank-rahn/docker-rahn-php-apache-with-extensions/blob/main/8.1.10/Dockerfile)
+* latest, 8, 8.2, 8.2.9 (PHP/8.2.9, Zend Engine/4.2.9 and Apache/2.4.57) [Dockerfile](https://github.com/frank-rahn/docker-rahn-php-apache-with-extensions/blob/main/8.2.9/Dockerfile)
+* 8.1, 8.1.10 (PHP/8.1.10, Zend Engine/4.1.10 and Apache/2.4.54) [Dockerfile](https://github.com/frank-rahn/docker-rahn-php-apache-with-extensions/blob/main/8.1.10/Dockerfile)
 * 8.0, 8.0.13 (PHP/8.0.13, Zend Engine/4.0.13 and Apache/2.4.51) [Dockerfile](https://github.com/frank-rahn/docker-rahn-php-apache-with-extensions/blob/main/8.0.13/Dockerfile)
 * 7, 7.4, 7.4.11 (PHP/7.4.11, Zend Engine/3.4.0 and Apache/2.4.38) [Dockerfile](https://github.com/frank-rahn/docker-rahn-php-apache-with-extensions/blob/main/7.4.11/Dockerfile)
 * 7.3, 7.3.11 (PHP/7.3.11, Zend Engine/3.3.11 and Apache/2.4.38) [Dockerfile](https://github.com/frank-rahn/docker-rahn-php-apache-with-extensions/blob/main/7.3.11/Dockerfile)
@@ -41,6 +42,14 @@ Verbinden mit der `bash`:
     docker exec -it php-apache-app bash
 
 ## Informationsquellen bei HostEurope
+
+### PHP 8.2
+Webhosting: [http://php82.hosteurope-infos.de/phpinfo.php](http://php82.hosteurope-infos.de/phpinfo.php)
+
+Webserver: [http://webserver-php82.hosteurope-infos.de/phpinfo.php](http://webserver-php82.hosteurope-infos.de/phpinfo.php)
+
+Migration: [https://www.php.net/manual/de/migration82.incompatible.php](https://www.php.net/manual/de/migration82.incompatible.php)
+
 
 ### PHP 8.1
 Webhosting: [http://php81.hosteurope-infos.de/phpinfo.php](http://php81.hosteurope-infos.de/phpinfo.php)
